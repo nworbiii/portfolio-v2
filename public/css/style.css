@@ -1,0 +1,173 @@
+/*
+*******************
+* =header
+*******************
+*/
+
+header {
+  overflow: hidden;
+}
+
+/*
+*******************
+* =nav
+*******************
+*/
+
+nav {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  height: 35px;
+  width :100%;
+  background-color: rgba(1, 1, 1, 0.8);
+  padding-top: 12px;
+  text-align: center;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  text-transform: lowercase;
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/*
+*******************
+* =main
+*******************
+*/
+
+
+
+h1 {
+	font-size: 35px;
+	text-align: center;
+	letter-spacing: 2px;
+	font-family: sans-serif;
+	font-weight: 300;
+	height: 30px;
+	padding-top: 5%;
+}
+
+.about_me {
+  background-color: #F0F8FF;
+}
+
+.about_me .center {
+  text-align: left;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 0;
+  padding-left: 45px;
+  padding-right: 45px;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 26px;
+  letter-spacing: 0.7px;
+}
+
+.education ul {
+  font-family: sans-serif;
+  line-height: 63px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #333;
+}
+
+
+
+.skills ul {
+  text-align: center;
+  margin-bottom: 0;
+  padding-left: 45px;
+  padding-right: 45px;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.7px;
+}
+
+.center {
+  max-width: 760px;
+  margin: auto;
+}
+
+.center a {
+  text-decoration: none;
+}
+
+.about_me {
+  padding-bottom: 180px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+
+
+.education {
+  background-color :white;
+}
+
+
+
+.skills {
+  background-color: #F0F8FF;
+}
+
+.contact {
+  background-color: white;
+}
+
+.skills li, .contact li, .education li {
+  margin-left: 0;
+}
+
+
+
+/*
+*******************
+* =miscellaneous
+*******************
+*/
+
+hr {
+  border: 1px solid #333;
+  width: 110px;
+  margin: auto;
+}
+
+.hr {
+  margin-bottom: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
