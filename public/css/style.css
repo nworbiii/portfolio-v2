@@ -130,6 +130,10 @@ p {
   color: #e8634e;
 }
 
+.center a:hover {
+  color: #af0922;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -142,11 +146,11 @@ ul {
 }
 
 .skills {
-/*  background-color: #F0F8FF;*/
+  /*background-color: #F0F8FF;*/
 }
 
 .contact {
-/*  background-color: white;*/
+  /*background-color: white;*/
   margin-bottom: 33px;
 }
 
@@ -162,13 +166,14 @@ ul {
   margin-left: 0;
 }
 
-.fa-linkedin-square {
+.fa-linkedin-square, .fa-github {
   color:black;
 }
 
-.fa-github {
-  color:black;
+.fa-linkedin-square:hover, .fa-github:hover {
+  color:gray;
 }
+
 
 
 /*
