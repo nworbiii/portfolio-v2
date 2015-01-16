@@ -40,13 +40,33 @@ nav a {
   padding-right: 15px;
 }
 
+nav a:hover {
+  color: gray;
+}
+
+/*
+*******************
+* =body
+*******************
+*/
+
+body {
+  background-color: #f4f4f4;
+}
+
 /*
 *******************
 * =main
 *******************
 */
 
-
+.main {
+  width: 60%;
+  margin: auto;
+  background-color: white;
+  border-radius: 7px 7px 7px 7px;
+  box-shadow: 1px 1px 2px 2px #000;
+}
 
 h1 {
 	font-size: 35px;
@@ -59,7 +79,8 @@ h1 {
 }
 
 .about_me {
-  background-color: #F0F8FF;
+/*  background-color: #F0F8FF;*/
+  margin-top: 80px;
 }
 
 .about_me .center {
@@ -87,8 +108,6 @@ p {
   color: #333;
 }
 
-
-
 .skills ul {
   text-align: center;
   margin-bottom: 0;
@@ -108,10 +127,7 @@ p {
 
 .center a {
   text-decoration: none;
-}
-
-.about_me {
-  padding-bottom: 180px;
+  color: #e8634e;
 }
 
 ul {
@@ -121,26 +137,38 @@ ul {
   text-align: center;
 }
 
-
-
 .education {
-  background-color :white;
+  /*background-color: white;*/
 }
 
-
-
 .skills {
-  background-color: #F0F8FF;
+/*  background-color: #F0F8FF;*/
 }
 
 .contact {
-  background-color: white;
+/*  background-color: white;*/
+  margin-bottom: 33px;
 }
 
-.skills li, .contact li, .education li {
+.img {
+  text-align: center;
+}
+
+.img a {
+  text-decoration: none;
+}
+
+.skills li, .education li {
   margin-left: 0;
 }
 
+.fa-linkedin-square {
+  color:black;
+}
+
+.fa-github {
+  color:black;
+}
 
 
 /*
