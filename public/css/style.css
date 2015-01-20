@@ -72,13 +72,6 @@ body {
 *******************
 */
 
-/*@media screen {
-  .main { 
-    margin-left: 10px !important;
-    margin-right: 10px !important;
-  }
-}*/
-
 .main {
   max-width: 820px;
   margin: auto;
