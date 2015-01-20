@@ -72,12 +72,6 @@ body {
 *******************
 */
 
-@media screen and (max-width: 500px) {
-  .main { 
-    margin-top: 33px;
-  }
-}
-
 .main {
   max-width: 820px;
   margin: auto;
@@ -98,6 +92,12 @@ h1 {
 
 .contact h1, .education h1, .skills h1 {
   padding-top: 72px;
+}
+
+@media screen and (max-width: 500px) {
+  .about_me { 
+    margin-top: 33px !important;
+  }
 }
 
 .about_me {
