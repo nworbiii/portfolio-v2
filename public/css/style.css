@@ -124,7 +124,12 @@ h1 {
   max-width: 600px;
 }
 
-
+@media screen and (max-width: 500px) {
+  img { 
+    height: 110px !important;
+    width: 110px !important;
+  }
+}
 
 p {
   text-align: center;
