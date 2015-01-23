@@ -126,8 +126,8 @@ h1 {
 
 @media screen and (max-width: 500px) {
   img { 
-    height: 110px !important;
-    width: 110px !important;
+    height: 120px !important;
+    width: 120px !important;
   }
 }
 
